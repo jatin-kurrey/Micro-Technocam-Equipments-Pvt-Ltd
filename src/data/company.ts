@@ -1,0 +1,42 @@
+export const COMPANY_INFO = {
+  legalName: 'MICRO TECHNOCAM EQUIPMENTS PRIVATE LIMITED',
+  tradeName: 'Micro Technocam Equipments Pvt. Ltd.',
+  establishedYear: 2010,
+  cin: 'U29219DL2010PTC199156',
+  gstin: '22AAGCM4611A2Z8',
+  stateOfIncorporation: 'Delhi',
+  operatingState: 'Chhattisgarh',
+  locations: {
+    registeredOffice: {
+      title: 'Corporate Registered Office',
+      city: 'New Delhi',
+      state: 'Delhi',
+      country: 'India',
+      note: 'Registered Corporate Office under Registrar of Companies, Delhi',
+      pinPlaceholder: '110001 (Exact plot/street pending client confirmation)',
+    },
+    manufacturingUnit: {
+      title: 'Works & Operational Facility',
+      industrialArea: 'Joratarai Industrial Area / Durg-Bhilai Region',
+      district: 'Durg',
+      state: 'Chhattisgarh',
+      country: 'India',
+      note: 'Associated with Chhattisgarh state GST registration & industrial manufacturing operations',
+      pinPlaceholder: '491001 (Exact plot/sector pending client confirmation)',
+    },
+  },
+  contact: {
+    phonePlaceholder: '+91 94252 XXXXX / +91 788 XXXXXX',
+    emailPlaceholder: 'info@microtechnocam.com / sales@microtechnocam.com',
+    whatsappPlaceholder: '+919425200000',
+    salesTiming: 'Monday – Saturday: 09:00 AM – 06:30 PM IST',
+  },
+  complianceStatus: {
+    cinVerified: true,
+    gstinVerified: true,
+    incorporationVerified: true,
+    isoCertificationStatus: 'Pending documentation confirmation from client records',
+    factoryAreaStatus: 'Specific square footage pending client engineering audit',
+    workforceStatus: 'Project-specific engineering and technical fabrication team',
+  },
+} as const;
